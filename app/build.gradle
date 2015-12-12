@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "es.kashamalaga.ClienteRTC"
+        minSdkVersion 15
+        targetSdkVersion 23
+
+    }
+
+    buildTypes {
+        release {
+            zipAlignEnabled true
+          //  minifyEnabled true
+            // runProguard false
+            //WARNING [Project: :app] WARNING: runProguard is deprecated (and will soon stop working); change to "minifyEnabled" instead
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            //minifyEnabled true No usar
+            zipAlignEnabled true
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/libjingle_peerconnection-7113.jar')
+    compile files("libs/lib_android_websockets.jar")
+    compile files('libs/splunk-mint-4.3.0.jar')
+
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android WebRTC</string>
+    <string name="host">192.168.1.106</string>
+    <string name="menu_nuevo">Nueva Conexion</string>
+    <string name="menu_preferencias">Ajustes</string>
+    <string name="mostrar_joystick">Mostrar Joystick</string>
+    <string name="ocultar_joystick">Ocultar Joystick</string>
+    <string name="pref_fps">Mostrar FPS</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="show_debug">Mostrar Debug</string>
+    <string name="Cuellotext">Tilt Cuello: </string>
+    <string name="VelocidadtextView">Velocidad : </string>
+    <string name="GiroMaximoTextView">Giro :</string>
+    <string name="txtCreditos">AGRADECIMENTOS
+
+
+Me gustaría agradecer en primera instancia a Vicente Arévalo Espejo, por permitirme desarrollar una idea mía propia, que nació de las visitas realizadas al departamento de Robótica de la universidad de Málaga (MAPIR Ingeniería de Sistemas y Automática) en la que trabaja un gran amigo y vecino; José Raúl Sarmiento Ruiz, el cual, al mostrarme parte del trabajo que realizan en diferentes robots, hizo surgir en mí la idea de suplir algunas necesidades que no estaban cubiertas, cómo la teleoperación de los diferentes Robots del departamento desde dispositivos móviles.
+
+También no puedo olvidarme de Javier González Jiménez que no dudó en apuntarse a la idea y tutorizar junto a Vicente dicho proyecto.
+
+Por supuesto también a todo el equipo de Mapir, que tanto me ha ayudado y aconsejado en mis visitas a los laboratorios para trastear con los diferentes robots, Curro, Javi, Carlos, Rubén, etc...
+
+Quisiera además dar las gracias a todas las personas que me han acompañado en esta etapa en la universidad, haciendo de ella una etapa inolvidable, en especial: Nahuel, Edu, Fabián, Ale, Pepe y un largo etc. que no cabrían en esta sección; a todos ellos por los trabajos en grupo, horas de estudio, madrugones, desayunos, risas y noches de ocio.
+
+Por ultimo no quiero olvidarme de mi familia, mi hermana Beatriz y mis padres Mª del Carmen y Antonio por ayudarme en todo lo que ha estado en sus manos para que consiguiera llegar hasta aquí.
+
+
+A todos, muchísimas gracias.
+</string>
+    <string name="menu_desconectar">Desconectar</string>
+    <string name="menu_acercade">Acerca de</string>
+</resources>

@@ -1,0 +1,182 @@
+Applications Memory Usage (kB):
+Uptime: 67313 Realtime: 67309
+
+Total PSS by process:
+    69475 kB: system (pid 2429)
+    56931 kB: com.google.android.googlequicksearchbox (pid 3272 / activities)
+    41133 kB: com.android.systemui (pid 2696)
+    22340 kB: com.google.process.location (pid 3682)
+    21270 kB: com.google.process.gapps (pid 3062)
+    21138 kB: com.google.android.googlequicksearchbox:search (pid 3405)
+    20659 kB: com.whatsapp (pid 3349)
+    17732 kB: com.google.android.gms (pid 3521)
+    17313 kB: com.sand.airdroid (pid 2835)
+    17119 kB: com.google.android.music:main (pid 3923)
+    16578 kB: com.google.android.talk (pid 4066)
+    16383 kB: com.cyanogenmod.eleven:main (pid 3989)
+    15988 kB: com.google.android.apps.maps (pid 3768)
+    13994 kB: com.google.android.gm (pid 3829)
+    13551 kB: com.android.vending (pid 3572)
+    12800 kB: com.xiaomi.hm.health (pid 2854)
+    11499 kB: zygote (pid 2061)
+    10339 kB: mediaserver (pid 2055)
+    10033 kB: com.google.android.inputmethod.latin (pid 2990)
+     9459 kB: android.process.media (pid 2717)
+     8852 kB: com.koushikdutta.cast (pid 4007)
+     7740 kB: com.google.android.gms.wearable (pid 3724)
+     7546 kB: com.android.chrome (pid 3806)
+     7038 kB: com.android.settings (pid 2900)
+     6464 kB: com.cyanogenmod.trebuchet (pid 4044)
+     6203 kB: com.android.nfc (pid 3196)
+     5575 kB: com.android.server.telecom (pid 3170)
+     5516 kB: com.google.android.gm.exchange (pid 3853)
+     5487 kB: com.android.phone (pid 3203)
+     5391 kB: com.android.deskclock (pid 4109)
+     5369 kB: com.lsdroid.cerberuss (pid 2871)
+     5366 kB: com.google.android.googlequicksearchbox:interactor (pid 2951)
+     5013 kB: com.cyanogenmod.lockclock (pid 3041)
+     4382 kB: org.cyanogenmod.theme.chooser (pid 2920)
+     4338 kB: com.spanishcoders.pepephone (pid 3888)
+     4139 kB: com.cyanogenmod.eleven (pid 3969)
+     3706 kB: com.android.keychain (pid 4124)
+     3592 kB: org.cyanogenmod.audiofx (pid 3246)
+     3406 kB: com.android.incallui (pid 3234)
+     3170 kB: surfaceflinger (pid 2048)
+     2729 kB: drmserver (pid 2054)
+     1857 kB: rild (pid 2053)
+     1682 kB: gpsd (pid 2060)
+     1348 kB: wpa_supplicant (pid 2860)
+     1062 kB: vold (pid 2047)
+     1059 kB: netd (pid 2051)
+     1010 kB: sdcard (pid 2062)
+      734 kB: logd (pid 2043)
+      683 kB: keystore (pid 2057)
+      482 kB: sh (pid 2049)
+      468 kB: adbd (pid 2063)
+      428 kB: /init (pid 1)
+      410 kB: lmkd (pid 2045)
+      386 kB: logcat (pid 2959)
+      382 kB: sdcard (pid 2864)
+      368 kB: healthd (pid 2044)
+      313 kB: debuggerd (pid 2052)
+      312 kB: ueventd (pid 1394)
+      277 kB: installd (pid 2056)
+      261 kB: servicemanager (pid 2046)
+      246 kB: daemonsu:master (pid 2210)
+      234 kB: auditd (pid 2050)
+      218 kB: daemonsu:mount:master (pid 2208)
+      216 kB: cbd (pid 2059)
+      198 kB: libairDog.so (pid 3023)
+        0 kB: com.google.android.keep (pid 3017)
+        0 kB: android.process.acore (pid 3086)
+        0 kB: com.android.printspooler (pid 3310)
+        0 kB: com.google.android.partnersetup (pid 3466)
+        0 kB: com.google.android.gms.ui (pid 3636)
+
+Total PSS by OOM adjustment:
+    42371 kB: Native
+               11499 kB: zygote (pid 2061)
+               10339 kB: mediaserver (pid 2055)
+                3170 kB: surfaceflinger (pid 2048)
+                2729 kB: drmserver (pid 2054)
+                1857 kB: rild (pid 2053)
+                1682 kB: gpsd (pid 2060)
+                1348 kB: wpa_supplicant (pid 2860)
+                1062 kB: vold (pid 2047)
+                1059 kB: netd (pid 2051)
+                1010 kB: sdcard (pid 2062)
+                 734 kB: logd (pid 2043)
+                 683 kB: keystore (pid 2057)
+                 482 kB: sh (pid 2049)
+                 468 kB: adbd (pid 2063)
+                 428 kB: /init (pid 1)
+                 410 kB: lmkd (pid 2045)
+                 386 kB: logcat (pid 2959)
+                 382 kB: sdcard (pid 2864)
+                 368 kB: healthd (pid 2044)
+                 313 kB: debuggerd (pid 2052)
+                 312 kB: ueventd (pid 1394)
+                 277 kB: installd (pid 2056)
+                 261 kB: servicemanager (pid 2046)
+                 246 kB: daemonsu:master (pid 2210)
+                 234 kB: auditd (pid 2050)
+                 218 kB: daemonsu:mount:master (pid 2208)
+                 216 kB: cbd (pid 2059)
+                 198 kB: libairDog.so (pid 3023)
+                   0 kB: com.google.android.keep (pid 3017)
+                   0 kB: android.process.acore (pid 3086)
+                   0 kB: com.android.printspooler (pid 3310)
+                   0 kB: com.google.android.partnersetup (pid 3466)
+                   0 kB: com.google.android.gms.ui (pid 3636)
+    69475 kB: System
+               69475 kB: system (pid 2429)
+    65396 kB: Persistent
+               41133 kB: com.android.systemui (pid 2696)
+                6203 kB: com.android.nfc (pid 3196)
+                5575 kB: com.android.server.telecom (pid 3170)
+                5487 kB: com.android.phone (pid 3203)
+                3592 kB: org.cyanogenmod.audiofx (pid 3246)
+                3406 kB: com.android.incallui (pid 3234)
+    62322 kB: Foreground
+               56931 kB: com.google.android.googlequicksearchbox (pid 3272 / activities)
+                5391 kB: com.android.deskclock (pid 4109)
+   106572 kB: Visible
+               22340 kB: com.google.process.location (pid 3682)
+               21270 kB: com.google.process.gapps (pid 3062)
+               17732 kB: com.google.android.gms (pid 3521)
+               17313 kB: com.sand.airdroid (pid 2835)
+               12800 kB: com.xiaomi.hm.health (pid 2854)
+                5369 kB: com.lsdroid.cerberuss (pid 2871)
+                5366 kB: com.google.android.googlequicksearchbox:interactor (pid 2951)
+                4382 kB: org.cyanogenmod.theme.chooser (pid 2920)
+    10033 kB: Perceptible
+               10033 kB: com.google.android.inputmethod.latin (pid 2990)
+    25842 kB: A Services
+               16383 kB: com.cyanogenmod.eleven:main (pid 3989)
+                9459 kB: android.process.media (pid 2717)
+    34210 kB: B Services
+               20659 kB: com.whatsapp (pid 3349)
+               13551 kB: com.android.vending (pid 3572)
+   145169 kB: Cached
+               21138 kB: com.google.android.googlequicksearchbox:search (pid 3405)
+               17119 kB: com.google.android.music:main (pid 3923)
+               16578 kB: com.google.android.talk (pid 4066)
+               15988 kB: com.google.android.apps.maps (pid 3768)
+               13994 kB: com.google.android.gm (pid 3829)
+                8852 kB: com.koushikdutta.cast (pid 4007)
+                7740 kB: com.google.android.gms.wearable (pid 3724)
+                7546 kB: com.android.chrome (pid 3806)
+                7038 kB: com.android.settings (pid 2900)
+                6464 kB: com.cyanogenmod.trebuchet (pid 4044)
+                5516 kB: com.google.android.gm.exchange (pid 3853)
+                5013 kB: com.cyanogenmod.lockclock (pid 3041)
+                4338 kB: com.spanishcoders.pepephone (pid 3888)
+                4139 kB: com.cyanogenmod.eleven (pid 3969)
+                3706 kB: com.android.keychain (pid 4124)
+
+Total PSS by category:
+   148182 kB: Unknown
+   144656 kB: Dalvik
+    92491 kB: .dex mmap
+    38587 kB: .apk mmap
+    33843 kB: .so mmap
+    31721 kB: image mmap
+    27531 kB: code mmap
+    18762 kB: Dalvik Other
+    17427 kB: Native
+     5119 kB: Other mmap
+     1605 kB: .ttf mmap
+     1254 kB: Stack
+      184 kB: Other dev
+       20 kB: Cursor
+        8 kB: .jar mmap
+        0 kB: Ashmem
+        0 kB: Graphics
+        0 kB: GL
+        0 kB: Memtrack
+
+Total RAM: 1827564 kB (status normal)
+ Free RAM: 1380589 kB (145169 cached pss + 769448 cached + 465972 free)
+ Used RAM: 487885 kB (416221 used pss + 27848 buffers + 308 shmem + 43508 slab)
+ Lost RAM: -40910 kB
+   Tuning: 192 (large 512), oom 184320 kB, restore limit 61440 kB (high-end-gfx)

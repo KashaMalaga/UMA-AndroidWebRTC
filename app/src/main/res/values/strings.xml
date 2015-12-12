@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android WebRTC</string>
+    <string name="host">192.168.1.106</string>
+    <string name="menu_preferencias">Settings</string>
+    <string name="mostrar_joystick">Show Joystick</string>
+    <string name="ocultar_joystick">Hide Joystick</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="pref_fps">Show FPS</string>
+    <string name="menu_nuevo">New Connect</string>
+    <string name="show_debug">Show Debug</string>
+    <string name="Cuellotext">Tilt :</string>
+    <string name="VelocidadtextView">Velocity :</string>
+    <string name="GiroMaximoTextView">Turn Assist :</string>
+    <string name="txtCreditos">This is a Kasha app :D</string>
+    <string name="menu_desconectar">Disconnect</string>
+    <string name="menu_acercade">About</string>
+
+</resources>

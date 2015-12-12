@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainframeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="horizontal"
+    android:background="@android:color/darker_gray" >
+
+
+    <es.kashamalaga.ClienteRTC.VideoStreamsView
+        android:id="@+id/vsvRenderizadoStream"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </es.kashamalaga.ClienteRTC.VideoStreamsView>
+
+
+    <TextView
+        android:orientation="horizontal"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/FPSTextView"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/angleTextView"
+        android:textColor="@android:color/holo_green_dark"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/powerTextView"
+        android:textColor="@android:color/holo_green_dark"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/activity_separacion_texto_2"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/directionTextView"
+        android:textColor="@android:color/holo_green_dark"
+        android:visibility="invisible"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="2dp"
+        android:background="@android:color/transparent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/DatosEnviotextView"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        android:textSize="25sp" />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_debug"
+        android:id="@+id/switchDebug"
+        android:layout_gravity="center_horizontal"
+        android:showText="true"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        android:layout_marginRight="50dp"
+        android:textSize="20sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/VistaJoysticksrelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="bottom">
+
+        <es.kashamalaga.ClienteRTC.Joysticks
+            android:id="@+id/joystick"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true">
+        </es.kashamalaga.ClienteRTC.Joysticks>
+
+        <es.kashamalaga.ClienteRTC.Joysticks
+            android:id="@+id/joystick2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true" >
+        </es.kashamalaga.ClienteRTC.Joysticks>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/counterLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|top">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pref_fps"
+            android:id="@+id/switchFPS"
+            android:showText="true"
+            android:layout_gravity="right"
+            android:textColor="@android:color/white"
+            android:visibility="invisible"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekGiroMaximo"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|center_horizontal"
+            android:max="2000"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/GiroMaximoTextView"
+            android:id="@+id/GirotextView"
+            android:layout_gravity="center_horizontal|right"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="-25dp"
+            android:visibility="invisible"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:id="@+id/seekCuello"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:max="1000"
+            android:indeterminate="false"
+            android:layout_gravity="right"
+            android:visibility="invisible"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Cuellotext"
+            android:id="@+id/CuellotextView"
+            android:textColor="@android:color/white"
+            android:autoText="false"
+            android:visibility="invisible"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal|right"
+            android:layout_marginTop="-25dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/VelocidadtextView"
+            android:id="@+id/VelocidadtextView"
+            android:layout_gravity="center_horizontal|right"
+            android:textColor="@android:color/white"
+            android:visibility="invisible"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekVelocidad"
+            android:visibility="invisible"
+            android:max="1000"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-30dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

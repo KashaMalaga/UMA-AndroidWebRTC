@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="horizontal"
+    android:background="@android:color/darker_gray" >
+<TextView
+    android:id="@+id/textview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="@string/txtCreditos"
+
+    android:textSize="20sp"
+
+
+    />
+</RelativeLayout>
