@@ -66,16 +66,16 @@ public class JoystickControl {
                                                                                      break;
                                                                                  case Joysticks.ADELANTE_IZQUIERDA:                         // Adelante Izq
                                                                                      mainActivity.getDirectionTextView().setText(" Adelante_Izquierda"); //15%
-                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(currSpeed) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.23));
+                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(currSpeed-0.1) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.23));
                                                                                      if (MainActivity.conectado_servidor) {
-                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(currSpeed) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.23));
+                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(currSpeed-0.1) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.23));
                                                                                      }
                                                                                      break;
                                                                                  case Joysticks.ADELANTE_DERECHA:                         // Adelante Derecha
-                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(currSpeed) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.23));
+                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(currSpeed-0.1) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.23));
                                                                                      mainActivity.getDirectionTextView().setText(" Adelante_Derecha");
                                                                                      if (MainActivity.conectado_servidor) {
-                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(currSpeed) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.23));
+                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(currSpeed-0.1) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.23));
                                                                                      }
 
                                                                                      break;
@@ -105,18 +105,18 @@ public class JoystickControl {
                                                                                      // client.enviardato("Motion "+String.format("%.3f",x)+" "+String.format("%.3f",y));
                                                                                      break;
                                                                                  case Joysticks.ATRAS_IZQUIERDA:                        //Atras Izq
-                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(-currSpeed) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.70));
+                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(-currSpeed+0.1) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.70));
                                                                                      mainActivity.getDirectionTextView().setText(" Atras_Izquierda"); //45%
                                                                                      if (MainActivity.conectado_servidor) {
-                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(-currSpeed) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.70));
+                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(-currSpeed+0.1) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * 0.70));
                                                                                      }
 
                                                                                      break;
                                                                                  case Joysticks.ATRAS_DERECHA:                     //Atras Derecha
-                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(-currSpeed) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.70));
+                                                                                     mainActivity.getDatosEnviotextView().setText("Motion " + new DecimalFormat("##.##", simbolos).format(-currSpeed+0.1) + "  " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.70));
                                                                                      mainActivity.getDirectionTextView().setText(" Atras_Derecha");
                                                                                      if (MainActivity.conectado_servidor) {
-                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(-currSpeed) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.70));
+                                                                                         mainActivity.getClient().enviardato("Motion " + new DecimalFormat("##.###", simbolos).format(-currSpeed+0.1) + " " + new DecimalFormat("##.##", simbolos).format((power / 100.0f) * -0.70));
                                                                                      }
 
                                                                                      break;
